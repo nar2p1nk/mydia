@@ -1,0 +1,18 @@
+mydia is a work-in-progress social media application
+
+what does a social media app do:
+
+0. login and logout of social media(make a login as guest since this is a dev app)
+
+1. send and receive posts from users
+
+    1.1. send and receive comments on a post from users
+
+2.view users profile
+
+    2.1. send and receive friend requests from other users
+
+        2.1.1. accept or decline friend request
+
+
+
