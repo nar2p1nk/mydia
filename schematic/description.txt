@@ -24,19 +24,21 @@ what to do:
 
     1.2. create the database schema using express or django for backend
 
-    1.3. create dummy data based on the database schema
+    1.3. implement user-authentication using passportjs for user\'s password
 
-    1.4. create an api for the data
+    1.4. populate database with dummy data based on the database schema
 
-        1.4.1. create an endpoint for creating users
+    1.5. create an api for the data
 
-            1.4.1.1. create error message if requirements of users are not met
+        1.5.1. create an endpoint for creating users
 
-            1.4.1.2. redirect to home page if creation is successful
+            1.5.1.1. create error message if requirements of users are not met
 
-        1.4.2. create an endpoint for login
+            1.5.1.2. redirect to home page if creation is successful
 
-        1.4.3. create an endpoint for
+        1.5.2. create an endpoint for login
+
+        1.5.3. create an endpoint for
 
 
 

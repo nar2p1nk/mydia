@@ -1,0 +1,40 @@
+user A sends a friend\'s request to user B:
+
+from_user_id = user A(0)
+
+to_user_id = user b(1)
+
+if accepted:
+
+    a new friend table is created with:
+
+        following_user_id:1
+
+        followedBy_user_id:0
+
+    and the friend\'s request is deleted
+
+if declined:
+
+    the friend\'s request is just deleted
+
+
+comment:
+
+comment A = 0
+
+comment_replied_to_id: = 0
+
+we can have multiples replies to a comment
+
+
+
+
+
+
+
+
+
+
+
+
