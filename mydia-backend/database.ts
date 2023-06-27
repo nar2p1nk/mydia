@@ -63,11 +63,23 @@ async function getUserById(userId:string){
     })
 }
 
-
+async function getUserByUsername(username:string){
+    prisma.users.findUnique({
+        where:{
+            username:username
+        }
+    })
+    .then(async(v:any)=>{
+        console.log(v);await prisma.$disconnect();return v
+    })
+    .catch(async(err)=>{
+        console.error(err);await prisma.$disconnect()
+    })
+}
 
 //createUser('yellow@pink.com','yellowPiss','Yellow','piss','eatass')
 
 //getAllUsers()
   
-getUserById('b67247f6-d3f7-49c2-8d0d-699cdda56857')
+getUserByUsername('yellowPiss')
 
